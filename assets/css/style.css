@@ -1,15 +1,15 @@
 *{
     background-color: #fbd086;
-    color: rgb(228, 10, 199);
+    color: #2baf90;
 }
 
 :root {
-    --box-shadow-color-1: #d54529;
+    --box-shadow-color-1: #8c0027;
 }
 
 .header span {
     box-shadow: 2px 2px 15px var(--box-shadow-color-1);
-    color: rgb(12, 8, 212);
+    color: #8c0027;
 }
 
 .header nav {
