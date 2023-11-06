@@ -15,6 +15,9 @@
 .header nav {
     float: right;
     margin-right: 20px;
+    position: absolute;
+    right: 0%;
+    top: 2%;
 }
 
 
@@ -27,6 +30,28 @@
     margin-left: 25px;
 }
 
+.me {
+    position: relative;
+    right: -44%;
+    width: 14%;
+    margin-bottom: 25px;
+}
+
 .about-me {
-    margin-bottom: 20px;
+    padding: 2% 2%;
+    font-size: 180%;
+    border: 10px solid #8c0027;
+    border-radius: 8%;
+    width: 11%;;
+    box-shadow: 10px 11px 17px #a1d4b1;
+    
+}
+
+#about-me:hover::after {
+    content: "Hi My name is Joseph and i'm an aspiring webdevolper";
+    position: relative;
+}
+
+.logo {
+   max-width: 3%;
 }
