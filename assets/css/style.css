@@ -1,14 +1,16 @@
 *{
     background-color: #fbd086;
     color: #2baf90;
+    font-family: serif;
 }
 
 :root {
-    --box-shadow-color-1: #8c0027;
+    --box-shadow-color-1: #a1d4b1;
+    --border: #8c0027;
 }
 
 .header span {
-    box-shadow: 2px 2px 15px var(--box-shadow-color-1);
+    box-shadow: 2px 2px 15px #dd4111;
     color: #8c0027;
 }
 
@@ -38,20 +40,61 @@
 }
 
 .about-me {
+    position: relative;
+    top: -80px;
     padding: 2% 2%;
     font-size: 180%;
-    border: 10px solid #8c0027;
+    border: 10px solid var(--border);
     border-radius: 8%;
-    width: 11%;;
-    box-shadow: 10px 11px 17px #a1d4b1;
+    width: 20%;;
+    box-shadow: 10px 11px 17px var(--box-shadow-color-1);
     
 }
 
 #about-me:hover::after {
     content: "Hi My name is Joseph and i'm an aspiring webdevolper";
     position: relative;
+    font-size: 80%;
+}
+
+.project-1 {
+    position:relative;
+    left: 49%;
+    border: 10px solid var(--border);
+    border-radius: 8%;
+    width: 20%;
+    padding: 11% 15%;
+    box-shadow: -15px -16px 27px var(--box-shadow-color-1);
+    
+}
+
+.project-2 {
+    position: relative;
+    border: 10px solid var(--border);
+    border-radius: 8%;
+    width: 20%;
+    padding: 10%;
+    box-shadow: 10px 10px 20px var(--box-shadow-color-1);
+}
+
+.project-3 {
+    position: relative;
+    left: 49%;
+    border: 10px solid var(--border);
+    border-radius: 8%;
+    width: 20%;
+    padding: 10%;
+    box-shadow: 15px 16px 30px var(--box-shadow-color-1);
 }
 
 .logo {
-   max-width: 3%;
+    position: absolute;
+    left: 40%;
+    bottom: -67%;
+    max-width: 3%;
+}
+
+.contact-info {
+    text-align: center;
+    display: inline;
 }
