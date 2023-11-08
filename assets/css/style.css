@@ -90,8 +90,15 @@
 .logo {
     position: absolute;
     left: 40%;
-    bottom: -67%;
-    max-width: 3%;
+    bottom: -130%;
+    max-width: 10%;
+}
+
+.logo-2 {
+    position: absolute;
+    left: 20%;
+    bottom: -130%;
+    max-width: 10%;
 }
 
 .contact-info {
