@@ -9,6 +9,10 @@
     --border: #8c0027;
 }
 
+.header h1 {
+    font-size: 200%;
+}
+
 .header span {
     box-shadow: 2px 2px 15px #dd4111;
     color: #8c0027;
@@ -85,24 +89,25 @@
     border-radius: 8%;
     width: 20%;
     padding: 10%;
-    box-shadow: 15px 16px 30px var(--box-shadow-color-1);
+    box-shadow: -15px -16px 20px var(--box-shadow-color-1);
 }
 
-.logo {
+.contact-info h4 {
     position: absolute;
-    left: 40%;
-    bottom: -130%;
-    max-width: 10%;
+    font-size: 200%;
+    bottom: -115%;
 }
 
-.logo-2 {
+#logo {
     position: absolute;
-    left: 20%;
+    left: 0%;
     bottom: -130%;
-    max-width: 10%;
+    max-width: 5%;
 }
 
-.contact-info {
-    text-align: center;
-    display: inline;
+#logo-2 {
+    position: absolute;
+    left: 10%;
+    bottom: -130%;
+    max-width: 5%;
 }
