@@ -36,7 +36,7 @@
     margin-left: 25px;
 }
 
-.me {
+.Self-Img {
     position: relative;
     right: -44%;
     width: 14%;
@@ -57,38 +57,45 @@
 }
 
 #about-me:hover::after {
-    content: "Hi My name is Joseph and i'm an aspiring webdevolper";
+    content: "Hi My name is Joseph and i'm currently in school learning WebDevelopmint. So far its been a challenge but Also very fun. I'm excited to go on this journey of coding and can't wait to learn more. ";
     position: relative;
     font-size: 80%;
 }
 
 .project-1 {
-    position:relative;
+    font-size: xx-large;
+    position: relative;
     left: 49%;
+    padding: 400px 300px 15px 10px;
     border: 10px solid var(--border);
     border-radius: 8%;
-    width: 20%;
-    padding: 11% 15%;
+    width: 700px;
     box-shadow: -15px -16px 27px var(--box-shadow-color-1);
     
 }
 
+.project-1:hover {
+    content: img
+}
+
 .project-2 {
+    font-size: xx-large;
     position: relative;
+    padding: 300px 100px 20px 20px;
     border: 10px solid var(--border);
     border-radius: 8%;
-    width: 20%;
-    padding: 10%;
-    box-shadow: 10px 10px 20px var(--box-shadow-color-1);
+    width: 500px;
+    box-shadow: 10px 10px 20px var(--box-shadow-color-1)
 }
 
 .project-3 {
+    font-size: xx-large;
     position: relative;
+    padding: 320px 100px 20px 253px;
     left: 49%;
     border: 10px solid var(--border);
     border-radius: 8%;
-    width: 20%;
-    padding: 10%;
+    width: 27%;
     box-shadow: -15px -16px 20px var(--box-shadow-color-1);
 }
 
